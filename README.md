@@ -1,15 +1,19 @@
 # Eleventy Plugin: Generate Social Images (using SVG)
 
-Dynamically generate social media images for your Eleventy pages. Unlike other similar plugins, this one uses SVG & does not depend on Puppeteer!
+Dynamically generate social media images for your Eleventy (11ty) pages. Unlike other similar plugins, this one uses SVG & does not depend on Puppeteer!
 
 ---
 
-1. [Introduction](#introduction)
-2. [How does it work?](#how-does-it-work)
-3. [Installation and Usage](#installation-and-usage)
-4. [Config Options](#config-options)
-5. [Custom Fonts](#custom-fonts)
-6. [Credits](#credits)
+- [Eleventy Plugin: Generate Social Images (using SVG)](#eleventy-plugin-generate-social-images-using-svg)
+  - [Introduction](#introduction)
+  - [How does it work?](#how-does-it-work)
+  - [Installation and Usage](#installation-and-usage)
+    - [STEP 1: Install the package](#step-1-install-the-package)
+    - [STEP 2: Include it in your `.eleventy.js` config file](#step-2-include-it-in-your-eleventyjs-config-file)
+    - [Step 3: Use in your template](#step-3-use-in-your-template)
+  - [Config Options](#config-options)
+  - [Custom Fonts](#custom-fonts)
+  - [Credits](#credits)
 
 ## Introduction
 
@@ -51,10 +55,34 @@ module.exports = (eleventyConfig) => {
     urlPath: "/img/preview",
     siteUrl: "Website ~ https://fatbuddhadesigns.co.uk/",
     siteEmail: "Email ~ info@fatbuddhadesigns.co.uk/",
-    titleColor: "#fedb8b"
+    titleColor: '#dfa634',
+    bgColor: '#fff',
+    terminalBgColor: '#333',
+    lineBreakAt: '48'
   });
 };
 ```
+
+or for ESM
+
+```js
+const generateSocialImages from "@fat-buddha-designs/eleventy-social-images/";
+
+export default async function (eleventyConfig) {
+  eleventyConfig.addPlugin(generateSocialImages, {
+    promoImage: "./src/img/my_profile_pic.jpg",
+    outputDir: "./_site/img/preview",
+    urlPath: "/img/preview",
+    siteUrl: "Website ~ https://fatbuddhadesigns.co.uk/",
+    siteEmail: "Email ~ info@fatbuddhadesigns.co.uk/",
+    titleColor: '#dfa634',
+    bgColor: '#fff',
+    terminalBgColor: '#333',
+    lineBreakAt: '48'
+  });
+};
+```
+
 
 ### Step 3: Use in your template
 
