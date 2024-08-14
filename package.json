@@ -7,15 +7,11 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fat-buddha-designs/eleventy-social-images.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/fat-buddha-designs/eleventy-social-images"
   },
   "keywords": [
     "11ty",
@@ -33,7 +29,6 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@sindresorhus/slugify": "^2.2.1",
-    "sharp": "^0.33.4",
-    "standard-version": "^9.5.0"
+    "sharp": "^0.33.4"
   }
 }
