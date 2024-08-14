@@ -1,6 +1,6 @@
 {
   "name": "@fat-buddha-designs/eleventy-social-images",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Dynamically generate social media images for your Eleventy pages.",
   "homepage": "",
   "main": ".eleventy.cjs",
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/fat-buddha-designs/eleventy-social-images.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/fat-buddha-designs"
+    "registry": "https://npm.pkg.github.com/fat-buddha-designs/eleventy-social-images"
   },
   "keywords": [
     "11ty",
