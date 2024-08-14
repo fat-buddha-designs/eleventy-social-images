@@ -1,6 +1,6 @@
 {
   "name": "@fat-buddha-designs/eleventy-social-images",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dynamically generate social media images for your Eleventy pages.",
   "homepage": "",
   "main": ".eleventy.cjs",
