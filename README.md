@@ -40,7 +40,7 @@ The social image is first created as SVG and then converted to PNG using [Sharp]
 ### STEP 1: Install the package
 
 ```bash
-npm install @fat-buddha-designs/eleventy-social-images/
+npm i @fat-buddha-designs/eleventy-social-images/
 ```
 
 ### STEP 2: Include it in your `.eleventy.js` config file
