@@ -13,9 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/fat-buddha-designs/eleventy-social-images.git"
   },
-  "publishConfig": {
-  "@fat-buddha-designs:registry": "https://npm.pkg.github.com"
-  },
   "keywords": [
     "11ty",
     "11ty-plugin",
@@ -28,7 +25,7 @@
     "url": "https://fatbuddhadesigns.co.uk"
   },
   "type": "module",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@sindresorhus/slugify": "^2.2.1",
