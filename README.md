@@ -2,6 +2,8 @@
 
 Dynamically generate social media images for your Eleventy (11ty) pages. Unlike other similar plugins, this one uses SVG & does not depend on Puppeteer!
 
+This version will only run with Eleventy 3.0.0 +
+
 ---
 
 - [Eleventy Plugin: Generate Social Images (using SVG)](#eleventy-plugin-generate-social-images-using-svg)
