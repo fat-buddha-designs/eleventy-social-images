@@ -13,7 +13,7 @@
     "url": "git+https://github.com/fat-buddha-designs/eleventy-social-images.git"
   },
   "publishConfig": {
-  "@fat-buddha-designs:registry": "https://npm.pkg.github.com"
+  "@fat-buddha-design:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "11ty",
